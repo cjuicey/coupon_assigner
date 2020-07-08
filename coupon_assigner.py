@@ -4,8 +4,8 @@ import pandas as pd
 ## Problem Parameters ##
 ########################
 
-n_coups = len(value_col_names) #how many coupons per user
-n_users = df.shape[0]
+n_coups = len(10) #how many coupons per user
+n_users = 200000
 budget = 5000
 
 # Data is put in the format (coup_num_i, value_i, cost_i)
